@@ -1,21 +1,13 @@
-# The Clap (Hand Percussion Kit) — Opus 48k Previews
+# Audio Data Collection
 
-Hand percussion simulating a drum kit. Sourced from Malaclypse the Younger (MIT). Fills a body-percussion / beatbox-style gap — complements body-percussion.sldf with a different recording character.
+Audio files in Opus 48k format with metadata index.
 
-## Source
-- Original: https://docs.google.com/document/d/15XBK9LqTsNRG14JD23bidiAvaEaj8UXcT8O8PDTnS3o
-- Lossless download: https://drive.google.com/file/d/1o8eKny3l5YJWGfrO18ISsmw0SSEZcetK/view
-- License: MIT
-- Author: Malaclypse the Younger
+## Contents
 
-## Files
-- 103 Opus 48k VBR audio files (flat structure)
-- `index.json` — file catalog with note/velocity/roundRobin metadata
+- `index.json` — metadata index
+- `*.opus` — audio files
+- `validate.py` — validation script
 
-## URL Pattern
-- Audio: `https://raw.githubusercontent.com/zulfikarbarbora-outl/the-clap-opus-48/main/<filename>.opus`
-- Index: `https://raw.githubusercontent.com/zulfikarbarbora-outl/the-clap-opus-48/main/index.json`
-- README: `https://raw.githubusercontent.com/zulfikarbarbora-outl/the-clap-opus-48/main/README.md`
+## License
 
-## Sourced by
-`scripts/source-sfzinstruments-tier2.py` on 2026-07-24 (Task ID 9-A, sfzinstruments.github.io Tier 2).
+CC0-1.0 / Public Domain
